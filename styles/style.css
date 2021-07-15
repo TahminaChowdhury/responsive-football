@@ -32,6 +32,7 @@ p{
 .first-heading{
     width: 485px;
     height: 301px;
+    
 }
 .half-width img{
     width: 556.01px;
@@ -49,7 +50,9 @@ p{
     margin-left: 5px;}
 
 /* Banner image annimation */
-
+.img{
+    align-items: flex-start;
+}
 .half-width img:hover{
     transition-property: transform;
     transition-duration: 5s;
@@ -138,7 +141,7 @@ p{
    cursor: pointer;
 }
 .login-form button:hover{
- background-color:#2D25A0;
+ background-color:c;
  color: white;
  border: 2px solid white;
 }
@@ -165,6 +168,8 @@ span{
 @media only screen and (max-width:688px) {
       .container{
           width: 100%;
+          display: flex;
+          width: 100%;
           flex-direction: column;
           align-items: center;
       }
@@ -177,7 +182,7 @@ span{
       }
       .photo-album{
           grid-template-columns: repeat(1, 1fr);
-          align-items: center;
+          align-items: flex-start;
       }
       .video-login{
           flex-direction: column;
