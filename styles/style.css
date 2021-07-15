@@ -38,8 +38,17 @@ body{
     padding: 10px 24px;
 }
 .right-arrow{
-    margin-left: 5px;
+    margin-left: 5px;}
+
+/* Banner image annimation */
+.half-width img:hover{
+    transition-property: transform;
+    transition-duration: 5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.5;
+    transform: rotatey(180deg);
 }
+
 /* players album */
 
 .album-section{
