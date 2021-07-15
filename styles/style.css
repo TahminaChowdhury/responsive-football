@@ -11,12 +11,14 @@ body{
     justify-content: center;
     align-items: center;
     background-color:#2D25A0 ;
-    width: 1440px;
-    height: 677px;
+
+   
 }
 .half-width{
    width: 50%;
-   padding-right: 140px;
+   padding-top: 70px;
+   padding-bottom: 50px;
+   padding-right: 100px;
    padding-left: 140px;
 }
 .half-width h3{
@@ -49,7 +51,7 @@ body{
     transition-property: transform;
     transition-duration: 5s;
     transition-timing-function: ease-in-out;
-    transition-delay: 0.5;
+    transition-delay: 0.3;
     transform: rotatey(180deg);}
 
 /* players album */
